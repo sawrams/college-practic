@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица+</title>
+    
+    <!-- Подключаем Tailwind CSS для стилей -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Подключаем шрифт Inter с Google Fonts для красивого текста -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Устанавливаем Inter как основной шрифт для всей страницы */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Шапка сайта -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Левая часть: Логотип и название -->
+                <a href="#" class="flex items-center text-gray-800">
+                    
+                    <!-- ============================================ -->
+                    <!-- ЗАМЕНИ ЭТО: Вставь путь к своему файлу логотипа -->
+                    <!-- Например: src="./images/logo.png"          -->
+                    <!-- ============================================ -->
+                    <img src="./logo.png" alt="Логотип" class="h-8 w-8 mr-3 rounded-md">
+                    
+                </a>
+
+                <!-- Правая часть: Ссылки регистрации и входа -->
+                <div class="flex items-center space-x-4 text-sm sm:text-base">
+                    <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors">регистрация</a>
+                    <span class="text-gray-300 select-none">•</span>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors">войти</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Основной контент (герой-секция) -->
+    <main class="relative flex items-center justify-center h-[calc(100vh-4rem)]">
+        
+        <!-- Фоновый градиент -->
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-600"></div>
+
+        <!-- Текстовый контент по центру -->
+        <div class="relative z-1 text-center text-white p-4">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
+                Упорядочь хаос - <span class="whitespace-nowrap">Таблица+</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg sm:text-xl text-blue-100 font-light">
+                Таблица+ — это умный инструмент для работы с данными и управлением информацией, созданный для простоты, эффективности и роста вместе с вашим проектом.
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
