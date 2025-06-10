@@ -1,4 +1,3 @@
-// filepath: /Users/sawrams/Documents/Programming/College_Projects/Practic/main.ts
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
