@@ -14,5 +14,5 @@
 
 ## Участники
 
--Saw Ramsson
--Mihoillo
+- Saw Ramsson
+- Mihoillo
