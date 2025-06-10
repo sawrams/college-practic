@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png" alt="Таблица+ Логотип" width="200"/>
+    <img src="./frontend/logo.png" alt="Таблица+ Логотип" width="200"/>
 </p>
 
 # Таблица +
