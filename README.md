@@ -10,7 +10,7 @@
 
 **Цель проекта:** автоматизация и облегчение работы с данными.
 
-**Стек:** TypeScript(backend) & HTML+CSS(Frontend)
+**Стек:** Python(backend) & HTML+CSS(Frontend)
 
 ## Участники
 
