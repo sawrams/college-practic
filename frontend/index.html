@@ -4,17 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица+</title>
-    
-    <!-- Подключаем Tailwind CSS для стилей -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Подключаем шрифт Inter с Google Fonts для красивого текста -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <style>
-        /* Устанавливаем Inter как основной шрифт для всей страницы */
         body {
             font-family: "JetBrains Mono", monospace;
         }
@@ -27,21 +21,14 @@
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <!-- Левая часть: Логотип и название -->
-                <a href="#" class="flex items-center text-gray-800">
-                    
-                    <!-- ============================================ -->
-                    <!-- ЗАМЕНИ ЭТО: Вставь путь к своему файлу логотипа -->
-                    <!-- Например: src="./images/logo.png"          -->
-                    <!-- ============================================ -->
-                    <img src="./logo.png" alt="Логотип" class="h-8 w-8 mr-3 rounded-md">
-                    
+                <a href="#" class="flex items-center text-gray-800 h-full">
+                    <img src="./logo.png" alt="Логотип" class="h-14 w-14 sm:h-16 sm:w-16 md:h-20 md:w-20 mr-3 rounded-md object-contain transition-all duration-200">
                 </a>
-
                 <!-- Правая часть: Ссылки регистрации и входа -->
-                <div class="flex items-center space-x-4 text-sm sm:text-base">
-                    <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors">регистрация</a>
+                <div class="flex items-center space-x-4 text-sm sm:text-base h-full">
+                    <a href="register.html" class="text-gray-600 hover:text-blue-600 transition-colors">регистрация</a>
                     <span class="text-gray-300 select-none">•</span>
-                    <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors">войти</a>
+                    <a href="login.html" class="text-gray-600 hover:text-blue-600 transition-colors">войти</a>
                 </div>
             </div>
         </nav>
@@ -49,11 +36,7 @@
 
     <!-- Основной контент (герой-секция) -->
     <main class="relative flex items-center justify-center h-[calc(100vh-4rem)]">
-        
-        <!-- Фоновый градиент -->
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-600"></div>
-
-        <!-- Текстовый контент по центру -->
         <div class="relative z-1 text-center text-white p-4">
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
                 Упорядочь хаос - <span class="whitespace-nowrap">Таблица+</span>
